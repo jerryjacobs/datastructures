@@ -1,0 +1,24 @@
+Recipe for cake added
+Recipe for cookies added
+Recipe for quiche added
+Recipe for salad added
+13 ingredients added to kitchen
+In the kitchen:
+  2 units of spinach
+  2 units of sugar
+  3 units of cheese
+  3 units of lettuce
+  5 units of butter
+  5 units of tomatoes
+  6 units of buttermilk
+  6 units of chocolate
+  6 units of flour
+  12 units of eggs
+  20 units of vanilla
+  100 units of baking_powder
+  400 units of salt
+Recipes that can be prepared:
+  cake
+  cookies
+  quiche
+  salad

@@ -1,0 +1,208 @@
+<body bgcolor=dddddd  onLoad="render()" >
+<form name="orderForm">
+   <input type="checkbox" name="illegal"   checked   onClick="render()">draw illegal (red) & next legal collapse (blue) edges<br>
+   <input type="checkbox" name="wireframe"           onClick="render()">draw all edges<br>
+   <input type="checkbox" name="black"               onClick="render()">toggle white vs. black<br>
+</form>
+<script language="JavaScript">
+  function render() {
+    var mysvg = document.getElementById("mesh");
+    if (document.orderForm.wireframe.checked == false) {
+      var polys = mysvg.children;
+      for (var i = 0; i < polys.length; i++) {
+        if (polys[i].tagName.toUpperCase() == "POLYGON") {
+          polys[i].style["strokeWidth"] = "0"
+        }
+      }
+    } else if (document.orderForm.black.checked == false) {
+      var polys = mysvg.children;
+      for (var i = 0; i < polys.length; i++) {
+        if (polys[i].tagName.toUpperCase() == "POLYGON") {
+          polys[i].style.stroke = "#FFFFFF"
+          polys[i].style["strokeWidth"] = "1"
+        }
+      }
+      mysvg.style.background = "white"
+    } else  {
+      var polys = mysvg.children;
+      for (var i = 0; i < polys.length; i++) {
+        if (polys[i].tagName.toUpperCase() == "POLYGON") {
+          polys[i].style.stroke = "#000000"
+          polys[i].style["strokeWidth"] = "2"
+        }
+      }
+      mysvg.style.background = "white"
+    }
+    if (document.orderForm.illegal.checked == false) {
+      var polys = mysvg.children;
+      for (var i = 0; i < polys.length; i++) {
+        if (polys[i].tagName.toUpperCase() == "LINE") {
+          polys[i].style["strokeWidth"] = "0"
+        }
+      }
+    } else  {
+      var polys = mysvg.children;
+      for (var i = 0; i < polys.length; i++) {
+        if (polys[i].tagName.toUpperCase() == "LINE") {
+          polys[i].style["strokeWidth"] = "5"
+        }
+      }
+      mysvg.style.background = "white"
+    }
+  }
+</script>
+<svg  id="mesh" height="1040" width="1040" style="background:white" shape-rendering="crispEdges">
+<polygon points=" 818.979, 935.093   792.354, 1008.04   701.519, 988.073" style="fill:#1d2d00;stroke:#1d2d00;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  835.64, 848.111   818.979, 935.093   743.564, 892.558" style="fill:#524f00;stroke:#524f00;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 743.564, 892.558   818.979, 935.093   701.519, 988.073" style="fill:#535200;stroke:#535200;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 981.729, 139.483   989.664,  242.87   898.767, 192.776" style="fill:#b39a0b;stroke:#b39a0b;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 417.519, 184.768   376.929, 306.401   286.328, 238.466" style="fill:#999010;stroke:#999010;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 328.442, 166.725   417.519, 184.768   286.328, 238.466" style="fill:#858a13;stroke:#858a13;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 417.519, 184.768   468.602, 268.385   376.929, 306.401" style="fill:#cba30b;stroke:#cba30b;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  835.64, 848.111   917.308, 926.312   818.979, 935.093" style="fill:#1a2f00;stroke:#1a2f00;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 468.602, 268.385   465.833, 355.765   376.929, 306.401" style="fill:#d4a80a;stroke:#d4a80a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 376.929, 306.401   465.833, 355.765    363.38, 399.197" style="fill:#b79d0b;stroke:#b79d0b;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  564.08, 262.247   465.833, 355.765   468.602, 268.385" style="fill:#c7a609;stroke:#c7a609;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 129.817, 469.751   250.738, 500.536   208.807, 568.761" style="fill:#797706;stroke:#797706;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 376.929, 306.401    363.38, 399.197   289.463,  373.34" style="fill:#78770a;stroke:#78770a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 289.463,  373.34    363.38, 399.197   336.406, 476.704" style="fill:#767407;stroke:#767407;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 289.463,  373.34   336.406, 476.704   250.738, 500.536" style="fill:#817a07;stroke:#817a07;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 286.328, 238.466   376.929, 306.401   289.463,  373.34" style="fill:#62700e;stroke:#62700e;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 465.833, 355.765   418.705, 484.406    363.38, 399.197" style="fill:#b59a08;stroke:#b59a08;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  363.38, 399.197   418.705, 484.406   336.406, 476.704" style="fill:#ad9106;stroke:#ad9106;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 991.417, 347.017   1000.59, 434.109   919.241,  415.19" style="fill:#a58d04;stroke:#a58d04;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 475.597,  635.52   537.624, 721.608   413.049,  710.48" style="fill:#4f5801;stroke:#4f5801;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 649.033, 689.832   605.647,  787.55   537.624, 721.608" style="fill:#c69c03;stroke:#c69c03;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 917.308, 926.312     897.1, 1003.24   818.979, 935.093" style="fill:#112800;stroke:#112800;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 818.979, 935.093     897.1, 1003.24   792.354, 1008.04" style="fill:#142300;stroke:#142300;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 917.308, 926.312   997.655, 968.652     897.1, 1003.24" style="fill:#102d00;stroke:#102d00;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="   589.8, 618.389   649.033, 689.832   537.624, 721.608" style="fill:#9c8b04;stroke:#9c8b04;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="   589.8, 618.389   537.624, 721.608   475.597,  635.52" style="fill:#565e02;stroke:#565e02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 408.246, 74.4358   417.519, 184.768   328.442, 166.725" style="fill:#aa980f;stroke:#aa980f;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 286.328, 238.466   289.463,  373.34   206.126, 292.911" style="fill:#3b5e0c;stroke:#3b5e0c;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 465.833, 355.765   504.116, 440.951   418.705, 484.406" style="fill:#d0a307;stroke:#d0a307;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 293.529, 62.1502   408.246, 74.4358   328.442, 166.725" style="fill:#a2940e;stroke:#a2940e;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 174.304, 31.7646   293.529, 62.1502   145.527, 126.791" style="fill:#a19409;stroke:#a19409;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  564.08, 262.247   615.534, 355.797   465.833, 355.765" style="fill:#b79907;stroke:#b79907;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 465.833, 355.765   615.534, 355.797   504.116, 440.951" style="fill:#c49a06;stroke:#c49a06;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 511.425,  538.75     589.8, 618.389   475.597,  635.52" style="fill:#3f4e02;stroke:#3f4e02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 504.116, 440.951   511.425,  538.75   418.705, 484.406" style="fill:#ab8a05;stroke:#ab8a05;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 811.762, 392.091   919.241,  415.19    825.36, 488.748" style="fill:#5b6507;stroke:#5b6507;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 811.762, 392.091    825.36, 488.748    721.78, 459.469" style="fill:#576309;stroke:#576309;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 862.486, 86.7948   981.729, 139.483   898.767, 192.776" style="fill:#c0a009;stroke:#c0a009;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 250.738, 500.536   353.843, 582.757   208.807, 568.761" style="fill:#857e06;stroke:#857e06;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 353.843, 582.757   413.049,  710.48   325.754, 754.083" style="fill:#4c4c01;stroke:#4c4c01;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 353.843, 582.757   475.597,  635.52   413.049,  710.48" style="fill:#515701;stroke:#515701;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 418.705, 484.406   511.425,  538.75   353.843, 582.757" style="fill:#a48603;stroke:#a48603;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 511.425,  538.75   475.597,  635.52   353.843, 582.757" style="fill:#6c6702;stroke:#6c6702;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 353.843, 582.757   325.754, 754.083   278.174, 657.666" style="fill:#575902;stroke:#575902;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 250.738, 500.536   336.406, 476.704   353.843, 582.757" style="fill:#b59505;stroke:#b59505;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 208.807, 568.761   353.843, 582.757   278.174, 657.666" style="fill:#656b03;stroke:#656b03;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 418.705, 484.406   353.843, 582.757   336.406, 476.704" style="fill:#c29703;stroke:#c29703;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 862.486, 86.7948   973.562, 60.3761   981.729, 139.483" style="fill:#a89909;stroke:#a89909;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 258.725, 842.641   256.084, 971.779   159.156, 964.004" style="fill:#424000;stroke:#424000;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 171.905, 822.445   258.725, 842.641   159.156, 964.004" style="fill:#866e01;stroke:#866e01;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 413.049,  710.48   537.624, 721.608   455.854, 794.584" style="fill:#5d6001;stroke:#5d6001;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 413.049,  710.48   455.854, 794.584   325.754, 754.083" style="fill:#263701;stroke:#263701;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 537.624, 721.608   605.647,  787.55   455.854, 794.584" style="fill:#8e7701;stroke:#8e7701;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 455.854, 794.584   605.647,  787.55   508.047, 853.233" style="fill:#837101;stroke:#837101;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 76.2496, 862.053   159.156, 964.004    51.804, 975.415" style="fill:#887301;stroke:#887301;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 91.9041,  721.86   76.2496, 862.053   31.5869, 790.613" style="fill:#8d6e02;stroke:#8d6e02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 171.905, 822.445   159.156, 964.004   76.2496, 862.053" style="fill:#9e7b01;stroke:#9e7b01;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 91.9041,  721.86   171.905, 822.445   76.2496, 862.053" style="fill:#9a7b02;stroke:#9a7b02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 215.023, 185.856   206.126, 292.911   89.6699, 214.278" style="fill:#8e8708;stroke:#8e8708;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 145.527, 126.791   215.023, 185.856   89.6699, 214.278" style="fill:#968a09;stroke:#968a09;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 293.529, 62.1502   328.442, 166.725   215.023, 185.856" style="fill:#a2950e;stroke:#a2950e;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 293.529, 62.1502   215.023, 185.856   145.527, 126.791" style="fill:#968c0a;stroke:#968c0a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 215.023, 185.856   286.328, 238.466   206.126, 292.911" style="fill:#697b0e;stroke:#697b0e;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 215.023, 185.856   328.442, 166.725   286.328, 238.466" style="fill:#7d8713;stroke:#7d8713;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  48.329, 84.6862   145.527, 126.791   89.6699, 214.278" style="fill:#818009;stroke:#818009;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  48.329, 84.6862   174.304, 31.7646   145.527, 126.791" style="fill:#8c8a09;stroke:#8c8a09;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 824.721, 630.495   892.158, 722.878   758.798, 704.914" style="fill:#545e02;stroke:#545e02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 978.409, 595.997   995.305, 674.843   892.158, 722.878" style="fill:#948203;stroke:#948203;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 824.721, 630.495   978.409, 595.997   892.158, 722.878" style="fill:#546002;stroke:#546002;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 995.305, 674.843   1000.28, 774.803   892.158, 722.878" style="fill:#907d04;stroke:#907d04;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 508.047, 853.233   625.262, 887.722   487.126, 975.867" style="fill:#7c6c01;stroke:#7c6c01;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 625.262, 887.722   589.882, 985.887   487.126, 975.867" style="fill:#595100;stroke:#595100;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 605.647,  787.55   625.262, 887.722   508.047, 853.233" style="fill:#b18a01;stroke:#b18a01;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 625.262, 887.722   701.519, 988.073   589.882, 985.887" style="fill:#625b00;stroke:#625b00;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 625.262, 887.722   743.564, 892.558   701.519, 988.073" style="fill:#927b01;stroke:#927b01;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 89.6699, 214.278   206.126, 292.911   151.483, 370.053" style="fill:#7c7f08;stroke:#7c7f08;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  60.707, 305.225   151.483, 370.053   39.7228, 418.166" style="fill:#4a5f0a;stroke:#4a5f0a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 89.6699, 214.278   151.483, 370.053    60.707, 305.225" style="fill:#7a7a0a;stroke:#7a7a0a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 151.483, 370.053   129.817, 469.751   39.7228, 418.166" style="fill:#606b08;stroke:#606b08;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 151.483, 370.053   289.463,  373.34   250.738, 500.536" style="fill:#65720a;stroke:#65720a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 206.126, 292.911   289.463,  373.34   151.483, 370.053" style="fill:#4d6408;stroke:#4d6408;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 151.483, 370.053   250.738, 500.536   129.817, 469.751" style="fill:#8d8609;stroke:#8d8609;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 728.263,  593.57   758.798, 704.914   649.033, 689.832" style="fill:#948303;stroke:#948303;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  721.78, 459.469    825.36, 488.748   728.263,  593.57" style="fill:#264106;stroke:#264106;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  825.36, 488.748   824.721, 630.495   728.263,  593.57" style="fill:#203e04;stroke:#203e04;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 728.263,  593.57   649.033, 689.832     589.8, 618.389" style="fill:#6d6c03;stroke:#6d6c03;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 728.263,  593.57   824.721, 630.495   758.798, 704.914" style="fill:#4f5b02;stroke:#4f5b02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 208.807, 568.761   201.879, 683.217   116.665, 645.989" style="fill:#224403;stroke:#224403;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 201.879, 683.217   171.905, 822.445   91.9041,  721.86" style="fill:#756f02;stroke:#756f02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 201.879, 683.217   278.174, 657.666   325.754, 754.083" style="fill:#223e02;stroke:#223e02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 208.807, 568.761   278.174, 657.666   201.879, 683.217" style="fill:#305004;stroke:#305004;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 201.879, 683.217   325.754, 754.083   258.725, 842.641" style="fill:#253501;stroke:#253501;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 116.665, 645.989   201.879, 683.217   91.9041,  721.86" style="fill:#344d03;stroke:#344d03;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 201.879, 683.217   258.725, 842.641   171.905, 822.445" style="fill:#676001;stroke:#676001;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 919.241,  415.19   956.459, 521.331    825.36, 488.748" style="fill:#435604;stroke:#435604;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 919.241,  415.19   1000.59, 434.109   956.459, 521.331" style="fill:#837d03;stroke:#837d03;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 956.459, 521.331   978.409, 595.997   824.721, 630.495" style="fill:#696f02;stroke:#696f02;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  825.36, 488.748   956.459, 521.331   824.721, 630.495" style="fill:#3a5004;stroke:#3a5004;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 862.486, 86.7948   898.767, 192.776   767.611, 192.328" style="fill:#c1a209;stroke:#c1a209;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 39.7228, 418.166   129.817, 469.751     59.62,  566.37" style="fill:#425506;stroke:#425506;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="   59.62,  566.37   208.807, 568.761   116.665, 645.989" style="fill:#214205;stroke:#214205;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 129.817, 469.751   208.807, 568.761     59.62,  566.37" style="fill:#4c5b05;stroke:#4c5b05;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="   59.62,  566.37   116.665, 645.989   91.9041,  721.86" style="fill:#334b04;stroke:#334b04;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 614.194, 60.5787   737.136, 67.3449   651.422, 172.384" style="fill:#b8a00a;stroke:#b8a00a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 737.136, 67.3449   862.486, 86.7948   767.611, 192.328" style="fill:#b29e09;stroke:#b29e09;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 737.136, 67.3449   767.611, 192.328   651.422, 172.384" style="fill:#b29b09;stroke:#b29b09;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 633.112, 486.915     589.8, 618.389   511.425,  538.75" style="fill:#616504;stroke:#616504;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 615.534, 355.797   633.112, 486.915   504.116, 440.951" style="fill:#a78905;stroke:#a78905;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 633.112, 486.915    721.78, 459.469   728.263,  593.57" style="fill:#485906;stroke:#485906;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 615.534, 355.797    721.78, 459.469   633.112, 486.915" style="fill:#727006;stroke:#727006;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 633.112, 486.915   728.263,  593.57     589.8, 618.389" style="fill:#495603;stroke:#495603;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 504.116, 440.951   633.112, 486.915   511.425,  538.75" style="fill:#958106;stroke:#958106;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 408.246, 74.4358   525.125, 154.047   417.519, 184.768" style="fill:#aa980c;stroke:#aa980c;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 525.125, 154.047    564.08, 262.247   468.602, 268.385" style="fill:#ad9b0a;stroke:#ad9b0a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 525.125, 154.047   651.422, 172.384    564.08, 262.247" style="fill:#a4960a;stroke:#a4960a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 614.194, 60.5787   651.422, 172.384   525.125, 154.047" style="fill:#b19e0c;stroke:#b19e0c;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 525.125, 154.047   468.602, 268.385   417.519, 184.768" style="fill:#b69e0b;stroke:#b69e0b;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 542.121, 35.6236   614.194, 60.5787   525.125, 154.047" style="fill:#a69d0c;stroke:#a69d0c;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 408.246, 74.4358   542.121, 35.6236   525.125, 154.047" style="fill:#9b930b;stroke:#9b930b;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 884.065, 295.934   991.417, 347.017   919.241,  415.19" style="fill:#8c8005;stroke:#8c8005;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 989.664,  242.87   991.417, 347.017   884.065, 295.934" style="fill:#a89109;stroke:#a89109;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 898.767, 192.776   989.664,  242.87   884.065, 295.934" style="fill:#a7920a;stroke:#a7920a;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 884.065, 295.934   919.241,  415.19   811.762, 392.091" style="fill:#837f06;stroke:#837f06;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 767.611, 192.328   898.767, 192.776   884.065, 295.934" style="fill:#b69a08;stroke:#b69a08;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 325.754, 754.083   377.105, 886.078   258.725, 842.641" style="fill:#212b00;stroke:#212b00;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 377.105, 886.078   370.309, 992.209   256.084, 971.779" style="fill:#0a1a00;stroke:#0a1a00;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 325.754, 754.083   455.854, 794.584   377.105, 886.078" style="fill:#223100;stroke:#223100;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 377.105, 886.078   487.126, 975.867   370.309, 992.209" style="fill:#0d2000;stroke:#0d2000;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 508.047, 853.233   487.126, 975.867   377.105, 886.078" style="fill:#3a4400;stroke:#3a4400;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 258.725, 842.641   377.105, 886.078   256.084, 971.779" style="fill:#1f2700;stroke:#1f2700;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 455.854, 794.584   508.047, 853.233   377.105, 886.078" style="fill:#4d5301;stroke:#4d5301;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 892.158, 722.878   962.702, 846.359    835.64, 848.111" style="fill:#263a00;stroke:#263a00;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 962.702, 846.359   997.655, 968.652   917.308, 926.312" style="fill:#113000;stroke:#113000;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 892.158, 722.878   1000.28, 774.803   962.702, 846.359" style="fill:#4c5302;stroke:#4c5302;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 962.702, 846.359   917.308, 926.312    835.64, 848.111" style="fill:#193300;stroke:#193300;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 649.033, 689.832   739.077, 785.315   605.647,  787.55" style="fill:#cb9b04;stroke:#cb9b04;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 739.077, 785.315   743.564, 892.558   625.262, 887.722" style="fill:#c49702;stroke:#c49702;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 649.033, 689.832   758.798, 704.914   739.077, 785.315" style="fill:#c9a104;stroke:#c9a104;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 892.158, 722.878   739.077, 785.315   758.798, 704.914" style="fill:#8a7802;stroke:#8a7802;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 739.077, 785.315   625.262, 887.722   605.647,  787.55" style="fill:#c19002;stroke:#c19002;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 739.077, 785.315    835.64, 848.111   743.564, 892.558" style="fill:#8c7601;stroke:#8c7601;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 892.158, 722.878    835.64, 848.111   739.077, 785.315" style="fill:#605c01;stroke:#605c01;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 884.065, 295.934   811.762, 392.091   720.398,   317.9" style="fill:#a39107;stroke:#a39107;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 720.398,   317.9   811.762, 392.091    721.78, 459.469" style="fill:#817f09;stroke:#817f09;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 767.611, 192.328   884.065, 295.934   720.398,   317.9" style="fill:#a49307;stroke:#a49307;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 651.422, 172.384   767.611, 192.328   720.398,   317.9" style="fill:#af9809;stroke:#af9809;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 720.398,   317.9    721.78, 459.469   615.534, 355.797" style="fill:#797506;stroke:#797506;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points=" 651.422, 172.384   720.398,   317.9    564.08, 262.247" style="fill:#a89508;stroke:#a89508;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<polygon points="  564.08, 262.247   720.398,   317.9   615.534, 355.797" style="fill:#a18d06;stroke:#a18d06;stroke-width:1;stroke-linecap:round" ;stroke-linejoin:round" />
+<line x1=" 542.121" y1=" 35.6236" x2=" 614.194" y2=" 60.5787"  stroke="blue"  stroke-width="0"  stroke-linecap="round" />
+</svg>
+<p>    93 vertices,    241 edges,    149 triangles, area =  851122.73
+</p>
+</body>

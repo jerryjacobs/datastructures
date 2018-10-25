@@ -1,0 +1,392 @@
+MATCH STATISTICS
+Player                    W    L   percentage
+Stanislas Wawrinka        7    0        1.000
+Rafael Nadal              6    1        0.857
+Tomas Berdych             5    1        0.833
+Roger Federer             5    1        0.833
+Grigor Dimitrov           4    1        0.800
+Novak Djokovic            4    1        0.800
+David Ferrer              4    1        0.800
+Andy Murray               4    1        0.800
+Kevin Anderson            3    1        0.750
+Roberto Bautista-Agut     3    1        0.750
+Fabio Fognini             3    1        0.750
+Florian Mayer             3    1        0.750
+Kei Nishikori             3    1        0.750
+Stephane Robert           3    1        0.750
+Tommy Robredo             3    1        0.750
+Jo-Wilfried Tsonga        3    1        0.750
+Jeremy Chardy             2    1        0.667
+Damir Dzumhur             2    1        0.667
+Teymuraz Gabashvili       2    1        0.667
+Richard Gasquet           2    1        0.667
+Denis Istomin             2    1        0.667
+Jerzy Janowicz            2    1        0.667
+Martin Klizan             2    1        0.667
+Feliciano Lopez           2    1        0.667
+Gael Monfils              2    1        0.667
+Benoit Paire              2    1        0.667
+Vasek Pospisil            2    1        0.667
+Sam Querrey               2    1        0.667
+Milos Raonic              2    1        0.667
+Edouard Roger-Vasselin    2    1        0.667
+Gilles Simon              2    1        0.667
+Donald Young              2    1        0.667
+Pablo Andujar             1    1        0.500
+Thomaz Bellucci           1    1        0.500
+Julien Benneteau          1    1        0.500
+Michael Berrer            1    1        0.500
+Marin Cilic               1    1        0.500
+Nikolay Davydenko         1    1        0.500
+Kenny De-Schepper         1    1        0.500
+Juan-Martin Del-Potro     1    1        0.500
+Ivan Dodig                1    1        0.500
+Alexandr Dolgopolov       1    1        0.500
+Matthew Ebden             1    1        0.500
+Alejandro Falla           1    1        0.500
+Guillermo Garcia-Lopez    1    1        0.500
+Ernests Gulbis            1    1        0.500
+Victor Hanescu            1    1        0.500
+Blaz Kavcic               1    1        0.500
+Thanasi Kokkinakis        1    1        0.500
+Nick Kyrgios              1    1        0.500
+Dusan Lajovic             1    1        0.500
+Yen-Hsun Lu               1    1        0.500
+Adrian Mannarino          1    1        0.500
+Leonardo Mayer            1    1        0.500
+Vincent Millot            1    1        0.500
+Jarkko Nieminen           1    1        0.500
+Michal Przysiezny         1    1        0.500
+Blaz Rola                 1    1        0.500
+Andreas Seppi             1    1        0.500
+Jack Sock                 1    1        0.500
+Dominic Thiem             1    1        0.500
+Dmitry Tursunov           1    1        0.500
+Fernando Verdasco         1    1        0.500
+Mikhail Youzhny           1    1        0.500
+Marcos Baghdatis          0    1        0.000
+Benjamin Becker           0    1        0.000
+Aljaz Bedene              0    1        0.000
+Ricardas Berankis         0    1        0.000
+Carlos Berlocq            0    1        0.000
+Alex Bogomolov-Jr.        0    1        0.000
+Daniel Brands             0    1        0.000
+Pablo Carreno-Busta       0    1        0.000
+Frank Dancevic            0    1        0.000
+Federico Delbonis         0    1        0.000
+Somdev Devvarman          0    1        0.000
+James Duckworth           0    1        0.000
+Daniel Gimeno-Traver      0    1        0.000
+Santiago Giraldo          0    1        0.000
+Peter Gojowczyk           0    1        0.000
+Andrey Golubev            0    1        0.000
+Alejandro Gonzalez        0    1        0.000
+Marcel Granollers         0    1        0.000
+Samuel Groth              0    1        0.000
+David Guez                0    1        0.000
+Tommy Haas                0    1        0.000
+Robin Haase               0    1        0.000
+Jan Hajek                 0    1        0.000
+Ryan Harrison             0    1        0.000
+Lleyton Hewitt            0    1        0.000
+Jesse Huta-Galung         0    1        0.000
+John Isner                0    1        0.000
+Steve Johnson             0    1        0.000
+Tobias Kamke              0    1        0.000
+Ivo Karlovic              0    1        0.000
+Bradley Klahn             0    1        0.000
+Lukasz Kubot              0    1        0.000
+Denis Kudla               0    1        0.000
+Mikhail Kukushkin         0    1        0.000
+Lukas Lacko               0    1        0.000
+Michael Llodra            0    1        0.000
+Nicolas Mahut             0    1        0.000
+Marinko Matosevic         0    1        0.000
+Juan Monaco               0    1        0.000
+Albert Montanes           0    1        0.000
+Aleksandr Nedovyesov      0    1        0.000
+Wayne Odesnik             0    1        0.000
+Lucas Pouille             0    1        0.000
+Albert Ramos-Vinolas      0    1        0.000
+Julian Reister            0    1        0.000
+Lukas Rosol               0    1        0.000
+Michael Russell           0    1        0.000
+Dudi Sela                 0    1        0.000
+Igor Sijsling             0    1        0.000
+Tim Smyczek               0    1        0.000
+Go Soeda                  0    1        0.000
+Joao Sousa                0    1        0.000
+Sergiy Stakhovsky         0    1        0.000
+Radek Stepanek            0    1        0.000
+Jan-Lennard Struff        0    1        0.000
+Jordan Thompson           0    1        0.000
+Bernard Tomic             0    1        0.000
+Jiri Vesely               0    1        0.000
+Filippo Volandri          0    1        0.000
+Jimmy Wang                0    1        0.000
+Rhyne Williams            0    1        0.000
+Di Wu                     0    1        0.000
+Horacio Zeballos          0    1        0.000
+Ze Zhang                  0    1        0.000
+
+GAME STATISTICS
+Player                    W    L   percentage
+Novak Djokovic           99   60        0.623
+Andy Murray              97   62        0.610
+Stanislas Wawrinka      153   98        0.610
+Tomas Berdych           114   74        0.606
+Kei Nishikori            82   55        0.599
+Rafael Nadal            131   88        0.598
+Roger Federer           110   74        0.598
+David Ferrer            101   72        0.584
+Roberto Bautista-Agut    79   57        0.581
+Stephane Robert          75   58        0.564
+Mikhail Youzhny          40   31        0.563
+Richard Gasquet          59   46        0.562
+Damir Dzumhur            52   41        0.559
+Fernando Verdasco        49   39        0.557
+Jo-Wilfried Tsonga       69   56        0.552
+Grigor Dimitrov         106   87        0.549
+Fabio Fognini            64   53        0.547
+Guillermo Garcia-Lopez   36   30        0.545
+Yen-Hsun Lu              30   25        0.545
+Milos Raonic             61   51        0.545
+Sam Querrey              53   45        0.541
+Edouard Roger-Vasselin   74   63        0.540
+Dmitry Tursunov          35   30        0.538
+Florian Mayer            76   66        0.535
+Pablo Andujar            39   34        0.534
+Michael Berrer           33   29        0.532
+Leonardo Mayer           26   23        0.531
+Alexandr Dolgopolov      44   39        0.530
+Martin Klizan            53   47        0.530
+Blaz Kavcic              37   33        0.529
+Blaz Rola                39   35        0.527
+Tommy Robredo            92   84        0.523
+Thomaz Bellucci          37   34        0.521
+Denis Istomin            53   49        0.520
+Alejandro Falla          41   38        0.519
+Juan-Martin Del-Potro    49   46        0.516
+Feliciano Lopez          50   47        0.515
+Benoit Paire             56   53        0.514
+Gilles Simon             78   75        0.510
+Jeremy Chardy            55   53        0.509
+Gael Monfils             44   43        0.506
+Andreas Seppi            54   53        0.505
+Victor Hanescu           34   34        0.500
+Nicolas Mahut            23   23        0.500
+Igor Sijsling            20   20        0.500
+Marin Cilic              48   49        0.495
+Nick Kyrgios             47   48        0.495
+Julien Benneteau         42   43        0.494
+Kevin Anderson           78   80        0.494
+Teymuraz Gabashvili      55   57        0.491
+Jiri Vesely              25   26        0.490
+Jarkko Nieminen          45   47        0.489
+Adrian Mannarino         42   44        0.488
+Jerzy Janowicz           56   59        0.487
+Jack Sock                37   39        0.487
+Lleyton Hewitt           28   30        0.483
+Nikolay Davydenko        38   41        0.481
+Vincent Millot           38   41        0.481
+Dominic Thiem            35   38        0.479
+Daniel Brands            34   37        0.479
+Lukasz Kubot             22   24        0.478
+Matthew Ebden            42   46        0.477
+Juan Monaco              18   20        0.474
+Michal Przysiezny        35   39        0.473
+Dudi Sela                25   28        0.472
+Donald Young             51   58        0.468
+Ivan Dodig               36   41        0.468
+Lukas Rosol              26   30        0.464
+Vasek Pospisil           41   48        0.461
+Kenny De-Schepper        29   34        0.460
+Joao Sousa               20   24        0.455
+Lucas Pouille            19   23        0.452
+Jordan Thompson          19   23        0.452
+Dusan Lajovic            31   38        0.449
+Ernests Gulbis           29   36        0.446
+Tobias Kamke             19   24        0.442
+Santiago Giraldo         17   22        0.436
+Marcel Granollers        20   26        0.435
+Steve Johnson            20   26        0.435
+Di Wu                    16   21        0.432
+Carlos Berlocq           19   25        0.432
+Wayne Odesnik            22   29        0.431
+Peter Gojowczyk          15   20        0.429
+Robin Haase              15   20        0.429
+Ivo Karlovic             15   20        0.429
+Bradley Klahn            18   24        0.429
+Rhyne Williams           18   24        0.429
+Marinko Matosevic        20   27        0.426
+Somdev Devvarman         14   19        0.424
+Thanasi Kokkinakis       28   38        0.424
+Benjamin Becker          18   25        0.419
+Pablo Carreno-Busta      18   25        0.419
+Horacio Zeballos         14   20        0.412
+Marcos Baghdatis         13   19        0.406
+Frank Dancevic           13   19        0.406
+Ryan Harrison            12   18        0.400
+Daniel Gimeno-Traver     15   23        0.395
+Julian Reister           15   23        0.395
+Ze Zhang                 15   23        0.395
+Alejandro Gonzalez       11   18        0.379
+Samuel Groth             11   18        0.379
+Ricardas Berankis        12   20        0.375
+Mikhail Kukushkin        14   24        0.368
+Federico Delbonis        11   19        0.367
+Filippo Volandri         11   19        0.367
+James Duckworth          10   18        0.357
+Jesse Huta-Galung        10   18        0.357
+Denis Kudla              10   18        0.357
+Aleksandr Nedovyesov     10   18        0.357
+Albert Ramos-Vinolas     10   18        0.357
+Sergiy Stakhovsky        13   24        0.351
+David Guez               10   19        0.345
+Lukas Lacko              10   19        0.345
+Michael Llodra           10   19        0.345
+Radek Stepanek           14   28        0.333
+Aljaz Bedene              9   19        0.321
+John Isner                8   19        0.296
+Jan Hajek                 7   18        0.280
+Michael Russell           7   18        0.280
+Jan-Lennard Struff        7   18        0.280
+Tommy Haas                7   19        0.269
+Jimmy Wang                6   18        0.250
+Alex Bogomolov-Jr.        5   18        0.217
+Andrey Golubev            5   18        0.217
+Albert Montanes           5   18        0.217
+Go Soeda                  5   18        0.217
+Tim Smyczek               4   18        0.182
+Bernard Tomic             4   18        0.182
+
+FLAWLESS SET STATISTICS
+Player                  FlawSets   percentage
+Blaz Kavcic                    2        0.250
+Stanislas Wawrinka             4        0.154
+Thomaz Bellucci                1        0.143
+Guillermo Garcia-Lopez         1        0.143
+Stephane Robert                2        0.143
+Novak Djokovic                 2        0.118
+Adrian Mannarino               1        0.111
+Martin Klizan                  1        0.100
+Damir Dzumhur                  1        0.091
+Rafael Nadal                   2        0.087
+Teymuraz Gabashvili            1        0.083
+Donald Young                   1        0.083
+Fabio Fognini                  1        0.077
+Kei Nishikori                  1        0.071
+David Ferrer                   1        0.056
+Kevin Anderson                 0        0.000
+Pablo Andujar                  0        0.000
+Marcos Baghdatis               0        0.000
+Roberto Bautista-Agut          0        0.000
+Benjamin Becker                0        0.000
+Aljaz Bedene                   0        0.000
+Julien Benneteau               0        0.000
+Ricardas Berankis              0        0.000
+Tomas Berdych                  0        0.000
+Carlos Berlocq                 0        0.000
+Michael Berrer                 0        0.000
+Alex Bogomolov-Jr.             0        0.000
+Daniel Brands                  0        0.000
+Pablo Carreno-Busta            0        0.000
+Jeremy Chardy                  0        0.000
+Marin Cilic                    0        0.000
+Frank Dancevic                 0        0.000
+Nikolay Davydenko              0        0.000
+Kenny De-Schepper              0        0.000
+Juan-Martin Del-Potro          0        0.000
+Federico Delbonis              0        0.000
+Somdev Devvarman               0        0.000
+Grigor Dimitrov                0        0.000
+Ivan Dodig                     0        0.000
+Alexandr Dolgopolov            0        0.000
+James Duckworth                0        0.000
+Matthew Ebden                  0        0.000
+Alejandro Falla                0        0.000
+Roger Federer                  0        0.000
+Richard Gasquet                0        0.000
+Daniel Gimeno-Traver           0        0.000
+Santiago Giraldo               0        0.000
+Peter Gojowczyk                0        0.000
+Andrey Golubev                 0        0.000
+Alejandro Gonzalez             0        0.000
+Marcel Granollers              0        0.000
+Samuel Groth                   0        0.000
+David Guez                     0        0.000
+Ernests Gulbis                 0        0.000
+Tommy Haas                     0        0.000
+Robin Haase                    0        0.000
+Jan Hajek                      0        0.000
+Victor Hanescu                 0        0.000
+Ryan Harrison                  0        0.000
+Lleyton Hewitt                 0        0.000
+Jesse Huta-Galung              0        0.000
+John Isner                     0        0.000
+Denis Istomin                  0        0.000
+Jerzy Janowicz                 0        0.000
+Steve Johnson                  0        0.000
+Tobias Kamke                   0        0.000
+Ivo Karlovic                   0        0.000
+Bradley Klahn                  0        0.000
+Thanasi Kokkinakis             0        0.000
+Lukasz Kubot                   0        0.000
+Denis Kudla                    0        0.000
+Mikhail Kukushkin              0        0.000
+Nick Kyrgios                   0        0.000
+Lukas Lacko                    0        0.000
+Dusan Lajovic                  0        0.000
+Michael Llodra                 0        0.000
+Feliciano Lopez                0        0.000
+Yen-Hsun Lu                    0        0.000
+Nicolas Mahut                  0        0.000
+Marinko Matosevic              0        0.000
+Florian Mayer                  0        0.000
+Leonardo Mayer                 0        0.000
+Vincent Millot                 0        0.000
+Juan Monaco                    0        0.000
+Gael Monfils                   0        0.000
+Albert Montanes                0        0.000
+Andy Murray                    0        0.000
+Aleksandr Nedovyesov           0        0.000
+Jarkko Nieminen                0        0.000
+Wayne Odesnik                  0        0.000
+Benoit Paire                   0        0.000
+Vasek Pospisil                 0        0.000
+Lucas Pouille                  0        0.000
+Michal Przysiezny              0        0.000
+Sam Querrey                    0        0.000
+Albert Ramos-Vinolas           0        0.000
+Milos Raonic                   0        0.000
+Julian Reister                 0        0.000
+Tommy Robredo                  0        0.000
+Edouard Roger-Vasselin         0        0.000
+Blaz Rola                      0        0.000
+Lukas Rosol                    0        0.000
+Michael Russell                0        0.000
+Dudi Sela                      0        0.000
+Andreas Seppi                  0        0.000
+Igor Sijsling                  0        0.000
+Gilles Simon                   0        0.000
+Tim Smyczek                    0        0.000
+Jack Sock                      0        0.000
+Go Soeda                       0        0.000
+Joao Sousa                     0        0.000
+Sergiy Stakhovsky              0        0.000
+Radek Stepanek                 0        0.000
+Jan-Lennard Struff             0        0.000
+Dominic Thiem                  0        0.000
+Jordan Thompson                0        0.000
+Bernard Tomic                  0        0.000
+Jo-Wilfried Tsonga             0        0.000
+Dmitry Tursunov                0        0.000
+Fernando Verdasco              0        0.000
+Jiri Vesely                    0        0.000
+Filippo Volandri               0        0.000
+Jimmy Wang                     0        0.000
+Rhyne Williams                 0        0.000
+Di Wu                          0        0.000
+Mikhail Youzhny                0        0.000
+Horacio Zeballos               0        0.000
+Ze Zhang                       0        0.000
